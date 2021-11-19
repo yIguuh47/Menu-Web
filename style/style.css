@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    display: flex;
+}
+
+.top-bar-logo{
+    vertical-align: middle ;
+}
+
+.nav-info{
+    list-style: none;
+}
+
+.icon-box img{
+    border: #a86703 1px solid;
+    font-size: 24px;
+    height: 26px;
+    width: 26px;
+    padding: 8px;
+    margin: 12px;
+    text-align: center;
+    position: absolute;
+}
+
+
+/*.icon-box{
+    border: 1px solid;
+    color: #a86703;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+}*/
+
+
+/*hover é usado para selecionar elementos quando voce passa o mouse sobre eles
+Dica: O seletor: hover pode ser usado em todos os elementos, não apenas em links.
+Dica: Use o seletor : link para estilizar links para páginas não visitadas, 
+o seletor : visitado para estilizar links para páginas visitadas
+ e o seletor : active para estilizar o link ativo.*/
+
+.nav-menu-back a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.nav-menu-back a:hover {
+    opacity: 0.3;
+}
+
+.nav-menu-back{
+    display: flex;
+    justify-content: space-between;
+    background: #a86703;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-menu li {
+    margin-left: 32px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.btn-nav{
+    background: transparent;
+    padding: 10px;
+    margin-right: 32px;
+    border: white 1px solid;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.7s;
+}
+
+.btn-nav:hover{
+    color: #ac5c00;
+    background: white;
+}
